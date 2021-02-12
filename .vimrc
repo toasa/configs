@@ -10,7 +10,7 @@ set number
 set encoding=utf-8
 set clipboard=unnamedplus
 
-inoremap jk <ESC>
+inoremap jk <ESC>:w<CR>
 
 let mapleader = " "
 
