@@ -15,7 +15,7 @@ setopt hist_reduce_blanks # 余分な空白を削除
 autoload -Uz colors
 colors
 
-PROMPT='%F{green}%n@%m%f %F{blue}%~%f %# '
+PROMPT='%F{green}%n@%m%f:%F{blue}%~%f$ '
 
 eval "$(dircolors -b)"
 alias ls='ls --color=auto'
